@@ -1,41 +1,58 @@
-# Prerequisites
+# --- Twoje dotychczasowe regu³y (C/C++) ---
 *.d
-
-# Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
-
-# Precompiled Headers
 *.gch
 *.pch
-
-# Linker files
 *.ilk
-
-# Debugger Files
 *.pdb
-
-# Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
 *.mod
 *.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
-
-# Executables
 *.exe
 *.out
 *.app
-
-# debug information files
 *.dwo
+
+# --- KLUCZOWE DLA VISUAL STUDIO (Tego brakowa³o) ---
+# Folder pamiêci podrêcznej Visual Studio (mo¿e wa¿yæ gigabajty!)
+.vs/
+# Ustawienia u¿ytkownika (nie chcemy ich na GitHubie)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- KLUCZOWE DLA C# i .NET (Tego brakowa³o) ---
+# Foldery z wynikami kompilacji C#
+[Bb]in/
+[Oo]bj/
+# Pliki generowane przez NuGet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# --- KLUCZOWE DLA C++ W VISUAL STUDIO ---
+# Foldery wyjœciowe kompilacji (gdzie VS wrzuca .exe i .dll)
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]elease[Pp]ublic/
+
+# Pliki tymczasowe kompilacji
+bld/
+[Ll]og/
+[Tt]mp/
+*.idb
+*.tlog
