@@ -4,6 +4,9 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="../MathApp/MathApp.csproj" />
-  <Project Path="MathCore.vcxproj" />
+  <Project Path="../MathApp/MathApp.csproj" Id="9e6b5f5f-0322-40b0-b4ee-1e5051cd4989">
+    <BuildDependency Project="MathCore.vcxproj" />
+    <Platform Solution="Debug|x64" Project="x64" />
+  </Project>
+  <Project Path="MathCore.vcxproj" Id="a103e4a9-5374-4a9c-b37e-08b7107a7937" />
 </Solution>
